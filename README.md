@@ -49,19 +49,19 @@ Consolidates contact information and returns linked identities.
 
 ### 1. New Email + New Phone Number  
 ✅ Creates a new primary contact record  
-![Test Case 1](image1.png)(https://image1.png)
+![Test Case 1](image1.png)
 
 ### 2. Same Email + New Phone Number  
 ✅ Creates a secondary contact linked to the existing email  
-![Test Case 2](image2.png)(https://image2.png)
+![Test Case 2](image2.png)
 
 ### 3. New Email + Same Phone Number  
 ✅ Creates a secondary contact linked to the existing phone  
-![Test Case 3](image3.png)(https://image3.png)
+![Test Case 3](image3.png)
 
 ### 4. Email from User A + Phone from User B  
 ✅ Links two previously separate identities and converts the newer primary to secondary  
-![Test Case 4](image4.png)(https://image4.png)
+![Test Case 4](image4.png)
 
 ---
 
