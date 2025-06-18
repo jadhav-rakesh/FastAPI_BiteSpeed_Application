@@ -1,7 +1,5 @@
 # 🔗 Bitespeed Identity Reconciliation API
 
-![FluxKart Logo](https://via.placeholder.com/150x50?text=FluxKart)
-![Bitespeed Logo](https://via.placeholder.com/150x50?text=Bitespeed)
 
 A FastAPI service that consolidates customer identities across multiple purchases with different contact information. It identifies and links contacts using email and phone number combinations, handling complex identity resolution with a clean and scalable architecture.
 
@@ -51,19 +49,19 @@ Consolidates contact information and returns linked identities.
 
 ### 1. New Email + New Phone Number  
 ✅ Creates a new primary contact record  
-![Test Case 1](https://image1.png)
+![image1](https://image1.png)
 
 ### 2. Same Email + New Phone Number  
 ✅ Creates a secondary contact linked to the existing email  
-![Test Case 2](https://image2.png)
+![image2](https://image2.png)
 
 ### 3. New Email + Same Phone Number  
 ✅ Creates a secondary contact linked to the existing phone  
-![Test Case 3](https://image3.png)
+![image3](https://image3.png)
 
 ### 4. Email from User A + Phone from User B  
 ✅ Links two previously separate identities and converts the newer primary to secondary  
-![Test Case 4](https://image4.png)
+![image4](https://image4.png)
 
 ---
 
@@ -146,9 +144,6 @@ Visit: [http://localhost:8000/docs](http://localhost:8000/docs) for Swagger UI.
 5. Done! 🎉
 
 ---
-
-## 📬 Contact
-
-For any issues or feedback: [support@bitespeed.com](mailto:support@bitespeed.com)
+speed.com)
 
 > Built with ❤️ using FastAPI & PostgreSQL
