@@ -107,13 +107,6 @@ cp .env.example .env
 
 ---
 
-### Run Migrations
-
-```bash
-alembic upgrade head
-```
-
----
 
 ### Start the Server
 
@@ -125,25 +118,6 @@ Visit: [http://localhost:8000/docs](http://localhost:8000/docs) for Swagger UI.
 
 ---
 
-## ☁️ Deploying to Render
 
-1. Push your project to GitHub.
-2. Create a new **Web Service** on [Render](https://render.com/).
-3. Use the following:
-
-- **Build Command**:
-  ```bash
-  pip install -r requirements.txt && alembic upgrade head
-  ```
-- **Start Command**:
-  ```bash
-  uvicorn app.main:app --host 0.0.0.0 --port 10000
-  ```
-
-4. Add all environment variables from `.env` into Render dashboard.
-5. Done! 🎉
-
----
-speed.com)
 
 > Built with ❤️ using FastAPI & PostgreSQL
